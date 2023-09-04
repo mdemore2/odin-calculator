@@ -4,4 +4,52 @@ body {
     height: 100vh;
     width: 100vw;
     text-align: center;
+    font-size: 32px;
+}
+
+button {
+    flex: 1;
+    font-size: 24px;
+}
+
+.calculator {
+    margin: 0 auto;
+    padding: 16px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.display {
+    flex: 1;
+    padding: 16px;
+    border: 1px solid black;
+}
+.row {
+    flex: 1;
+    display: flex;
+}
+
+.numbers {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    gap: 16px;
+}
+.operators {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.calculate {
+    flex: 1;
+    display: flex;
 }

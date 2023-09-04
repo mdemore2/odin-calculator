@@ -9,26 +9,41 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="numbers">
-            <button onclick="displayVal()">0</button>
-            <button onclick="displayVal()">1</button>
-            <button onclick="displayVal()">2</button>
-            <button onclick="displayVal()">3</button>
-            <button onclick="displayVal()">4</button>
-            <button onclick="displayVal()">5</button>
-            <button onclick="displayVal()">6</button>
-            <button onclick="displayVal()">7</button>
-            <button onclick="displayVal()">8</button>
-            <button onclick="displayVal()">9</button>
+        <div class="display">
+            
         </div>
-        <div class="operators">
-            <button onclick="displayVal()">+</button>
-            <button onclick="displayVal()">-</button>
-            <button onclick="displayVal()">*</button>
-            <button onclick="displayVal()">/</button>
-            <button onclick="displayVal()">.</button>
+        <div class="main">
+            <div class="numbers">
+                
+                <button onclick="displayVal(event)">0</button>
+                <div class="row">
+                    <button onclick="displayVal(event)">1</button>
+                    <button onclick="displayVal(event)">2</button>
+                    <button onclick="displayVal(event)">3</button>
+                </div>
+                <div class="row">
+                    <button onclick="displayVal(event)">4</button>
+                    <button onclick="displayVal(event)">5</button>
+                    <button onclick="displayVal(event)">6</button>
+                </div>
+                <div class="row">
+                    <button onclick="displayVal(event)">7</button>
+                    <button onclick="displayVal(event)">8</button>
+                    <button onclick="displayVal(event)">9</button>
+                </div>
+
+            </div>
+            <div class="operators">
+                <button onclick="displayVal(event)">+</button>
+                <button onclick="displayVal(event)">-</button>
+                <button onclick="displayVal(event)">*</button>
+                <button onclick="displayVal(event)">/</button>
+                <button onclick="displayVal(event)">.</button>
+            </div>
         </div>
-        <button onclick="calculate()">=</button>
+        <div class="calculate">
+            <button onclick="calculate()">=</button>
+        </div>
     </div>
     
 </body>
