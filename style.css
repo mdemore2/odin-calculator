@@ -47,9 +47,3 @@ button {
     display: flex;
     flex-direction: column;
 }
-
-
-.calculate {
-    flex: 1;
-    display: flex;
-}

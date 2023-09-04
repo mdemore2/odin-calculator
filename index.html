@@ -14,8 +14,6 @@
         </div>
         <div class="main">
             <div class="numbers">
-                
-                <button onclick="displayVal(event)">0</button>
                 <div class="row">
                     <button onclick="displayVal(event)">1</button>
                     <button onclick="displayVal(event)">2</button>
@@ -31,19 +29,21 @@
                     <button onclick="displayVal(event)">8</button>
                     <button onclick="displayVal(event)">9</button>
                 </div>
-
+                <div class="row">
+                    <button onclick="displayVal(event)">0</button>
+                    <button onclick="displayVal(event)">.</button>
+                </div>
             </div>
             <div class="operators">
                 <button onclick="displayVal(event)">+</button>
                 <button onclick="displayVal(event)">-</button>
                 <button onclick="displayVal(event)">*</button>
                 <button onclick="displayVal(event)">/</button>
-                <button onclick="displayVal(event)">.</button>
+                <button onclick="calculate()">=</button>
+
             </div>
         </div>
-        <div class="calculate">
-            <button onclick="calculate()">=</button>
-        </div>
+
     </div>
     
 </body>
